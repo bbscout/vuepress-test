@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-test",
+  "version": "0.0.1",
+  "description": "Testing vuepres on github pages",
+  "main": "index.js",
+  "authors": {
+    "name": "Me",
+    "email": "b@k.sc"
+  },
+  "repository": "bbscout/vuepress-test/vuepress-test",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
