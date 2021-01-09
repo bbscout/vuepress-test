@@ -14,10 +14,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: |
-        cd docs
-        npm ci
-    - run: npm run build
+    - run: cd docs && npm ci
+    - run: cd docs && npm run build
 
     - name: Init new repo in dist folder and commit generated files
       run: |
