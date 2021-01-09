@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: '/vuepress-test/'
+  base: '/vuepress-test/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
